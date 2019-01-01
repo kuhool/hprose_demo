@@ -10,8 +10,6 @@ function hello($name) {
     return "Hello $name!";
 }
 
-
-
 $server = new Server("http://0.0.0.0:8000");
 $server->add("hello");
 $server->debug = true;

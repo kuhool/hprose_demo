@@ -32,8 +32,8 @@
       <file leaf-file-name="demo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="312">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,7 +142,6 @@
         <option value="$PROJECT_DIR$/Hprose/HandlerManager.php" />
         <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/Hprose/Client.php" />
-        <option value="$PROJECT_DIR$/demo.php" />
         <option value="$PROJECT_DIR$/PHPromise/test.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/PHPromise/test/test.php" />
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/test/classess/Promise1.php" />
         <option value="$PROJECT_DIR$/test/classess/Promise2.php" />
         <option value="$PROJECT_DIR$/test/classess/Promise3.php" />
+        <option value="$PROJECT_DIR$/demo.php" />
       </list>
     </option>
   </component>
@@ -302,12 +302,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546146460579</updated>
-      <workItem from="1546146462349" duration="17645000" />
+      <workItem from="1546146462349" duration="17933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17645000" />
+    <option name="totallyTimeSpent" value="17933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -652,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="312">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

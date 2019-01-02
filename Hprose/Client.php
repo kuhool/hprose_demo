@@ -97,7 +97,7 @@ abstract class Client extends HandlerManager {
             }
         }
         $this->async = $async;
-        if (!$this->async) {
+        if (!$this->async) {//false为同步
             $self = $this;
             $this->defaultInvokeHandler = function(/*string*/ $name, array &$args, stdClass $context) use ($self) {
                 return $self->invokeHandler($name, $args, $context);
@@ -323,6 +323,7 @@ abstract class Client extends HandlerManager {
     }
 
     private function encode($name, array $args, stdClass $context) {
+
         $stream = new BytesIO(Tags::TagCall);
         $writer = new Writer($stream, $context->simple);
         $writer->writeString($name);
@@ -336,7 +337,7 @@ abstract class Client extends HandlerManager {
         $stream->write(Tags::TagEnd);
         $request = $stream->toString();
         $stream->close();
-        return $request;
+        return $request;//类似这样的字符串Cs5"hello"a1{s3"vvv"}z //hello函数, vvv参数
     }
 
     /*

@@ -4,8 +4,9 @@
 
 //require_once './PHPromise/Promise/Promise.php';
 //require_once './PHPromise/Promise/FulfilledPromise.php';
-use PHPromise\Promise\FulfilledPromise;
-use PHPromise\Promise\Promise;
+//use PHPromise\Promise\FulfilledPromise;
+//use PHPromise\Promise\Promise;
+
 $promise = new Promise(function ($resolve, $reject) {
     $resolve(1);
 });
